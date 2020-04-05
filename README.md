@@ -1,6 +1,6 @@
-# pruebalogin2
+# Aplicacion movil para el proyecto Finger Print Assistance System
 
-A new Flutter project.
+Aplicacion movil que ayudara a cambiar la asistencia de los alumnos a traves de su telefono.
 
 ## Getting Started
 
