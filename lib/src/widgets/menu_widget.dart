@@ -36,9 +36,9 @@ class MenuWidget extends StatelessWidget {
               onTap: ()=>Navigator.pushReplacementNamed(context, 'TablasAlumnos'),
             ),
             ListTile(
-              leading: Icon(Icons.library_add, color: Colors.greenAccent),
-              title: Text('Lista de alumnos'),
-              onTap: (){},
+              leading: Icon(Icons.edit, color: Colors.greenAccent),
+              title: Text('Editar Empleado'),
+              onTap: ()=>Navigator.pushReplacementNamed(context, 'editarEmpleado'),
             ),
             ListTile(
               leading: Icon(Icons.exit_to_app, color: Colors.green),
@@ -50,3 +50,4 @@ class MenuWidget extends StatelessWidget {
     );
   }
 }
+
